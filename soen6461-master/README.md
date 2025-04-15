@@ -40,7 +40,7 @@ To log in to the admin account, please use the following account credentials:  <
 
 ### Screenshots for various Screens
 - Login Page <br/>
-![Login Screen](https://github.com/nikithmd/vehiclereservation/blob/main/soen6461-master/Screenshots/1_login.png)
+![Login Screen](https://github.com/nikithmd/vehiclereservation/blob/730abc5b9c1736d01715f607244f8a84d65b2a37/soen6461-master/Screenshots/1_login.png)
 
 - Vehicles Catalog for Selection and Filter <br/>
 ![Vehicle selection and filter](/Screenshots/2_vehicle_catalogue.png)
