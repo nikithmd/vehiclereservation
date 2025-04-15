@@ -23,9 +23,73 @@ Your software system will consist of the following artifacts that must be develo
 
 ### Setting up environment
 
-1. Setting up the database systems on MySQL (https://github.com/ShareenAli/soen6461/wiki/Importing-Database)
-2. Setting up the backend server on Node.js (https://github.com/ShareenAli/soen6461/wiki/API-Requests)
-3. Running up the frontend web application (https://github.com/ShareenAli/soen6461/wiki/Frontend-react-Guide)
+## Prerequisites
+- Node.js (v14.0 or higher)
+- MySQL (v8.0 or higher)
+- Git
+
+### 1. Database Setup
+```bash
+# Login to MySQL
+mysql -u root -p
+
+# Create database
+CREATE DATABASE vehicle_rental;
+USE vehicle_rental;
+
+# Create vehicles table
+CREATE TABLE vehicles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    type ENUM('sedan', 'SUV', 'truck'),
+    make VARCHAR(50),
+    model VARCHAR(50),
+    year INT,
+    color VARCHAR(30),
+    license_plate VARCHAR(7) UNIQUE
+);
+
+# Create clients table
+CREATE TABLE clients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    driver_license VARCHAR(15) UNIQUE,
+    license_expiry DATE,
+    phone_number VARCHAR(15)
+);
+
+### 2. Backend Setup
+
+# Install dependencies
+npm install
+
+# Create and configure .env file
+touch .env
+
+# Add the following configuration to .env:
+DB_HOST=localhost
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+DB_NAME=vehicle_rental
+PORT=3000
+JWT_SECRET=your_secret_key
+
+# Start backend server
+npm start
+
+3. Frontend Setup
+
+# Install dependencies
+npm install
+
+# Create and configure .env
+touch .env
+
+# Add following configuration to .env:
+REACT_APP_API_URL=http://localhost:3000
+
+# Start frontend application
+npm start
 
 ### Credentials
 - Clerk <br/>
