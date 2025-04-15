@@ -28,16 +28,15 @@ Your software system will consist of the following artifacts that must be develo
 - MySQL (v8.0 or higher)
 - Git
 
-### 1. Database Setup
-```bash
-# Login to MySQL
+## 1. Database Setup
+#### Login to MySQL
 mysql -u root -p
 
-# Create database
+##### Create database
 CREATE DATABASE vehicle_rental;
 USE vehicle_rental;
 
-# Create vehicles table
+##### Create vehicles table
 CREATE TABLE vehicles (
     id INT AUTO_INCREMENT PRIMARY KEY,
     type ENUM('sedan', 'SUV', 'truck'),
@@ -48,7 +47,7 @@ CREATE TABLE vehicles (
     license_plate VARCHAR(7) UNIQUE
 );
 
-# Create clients table
+##### Create clients table
 CREATE TABLE clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -58,15 +57,15 @@ CREATE TABLE clients (
     phone_number VARCHAR(15)
 );
 
-### 2. Backend Setup
+## 2. Backend Setup
 
-# Install dependencies
+##### Install dependencies
 npm install
 
-# Create and configure .env file
+##### Create and configure .env file
 touch .env
 
-# Add the following configuration to .env:
+##### Add the following configuration to .env:
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
@@ -74,24 +73,24 @@ DB_NAME=vehicle_rental
 PORT=3000
 JWT_SECRET=your_secret_key
 
-# Start backend server
+##### Start backend server
 npm start
 
-3. Frontend Setup
+## 3. Frontend Setup
 
-# Install dependencies
+##### Install dependencies
 npm install
 
-# Create and configure .env
+##### Create and configure .env
 touch .env
 
-# Add following configuration to .env:
+##### Add following configuration to .env:
 REACT_APP_API_URL=http://localhost:3000
 
-# Start frontend application
+##### Start frontend application
 npm start
 
-### Credentials
+#### Credentials
 - Clerk <br/>
 To log in to the clerk account, please use the following account credentials:  <br/>
 ```Username: djmunish``` <br />
