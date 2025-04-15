@@ -40,34 +40,34 @@ To log in to the admin account, please use the following account credentials:  <
 
 ### Screenshots for various Screens
 - Login Page <br/>
-![Login Screen](/Screenshots/1_login.png)
+![Login Screen](/soen6461-master/Screenshots/1_login.png)
 
 - Vehicles Catalog for Selection and Filter <br/>
-![Vehicle selection and filter](/Screenshots/2_vehicle_catalogue.png)
+![Vehicle selection and filter](/soen6461-master/Screenshots/2_vehicle_catalogue.png)
 
 - Client Details <br/>
-![Client details](/Screenshots/3_client_manage.png)
+![Client details](/soen6461-master/Screenshots/3_client_manage.png)
 
 - Edit Client Detail Page <br/>
-![Single Client](/Screenshots/6_edit_client.png)
+![Single Client](/soen6461-master/Screenshots/6_edit_client.png)
 
 - Vehicle Status and details <br/>
-![Vehicle Status](/Screenshots/5_reserve_rent_popup.png)
+![Vehicle Status](/soen6461-master/Screenshots/5_reserve_rent_popup.png)
 
 - Renting a Vehicle <br/>
-![Renting](/Screenshots/7_cancel_rent.png)
+![Renting](/soen6461-master/Screenshots/7_cancel_rent.png)
 
 - Returning a Vehicle <br/>
-![Returning](/Screenshots/11_rent_Start.png)
+![Returning](/soen6461-master/Screenshots/11_rent_Start.png)
 
 - Adding a vehicle <br/>
-![Adding](/Screenshots/9_addVehicle.png)
+![Adding](/soen6461-master/Screenshots/9_addVehicle.png)
 
 - Editing a vehicle <br/>
-![Editing](/Screenshots/8_edit_vehicle.jpeg)
+![Editing](/soen6461-master/Screenshots/8_edit_vehicle.jpeg)
 
 - Filtering transactions <br/>
-![filter-type-a](/Screenshots/10_transaction.png)
+![filter-type-a](/soen6461-master/Screenshots/10_transaction.png)
 
 
 ## Author
