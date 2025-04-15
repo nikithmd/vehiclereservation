@@ -1,0 +1,52 @@
+{
+    "name": "car_rental_system",
+    "version": "1.0.0",
+    "description": "A Car Rental System",
+    "main": "src/index.ts",
+    "scripts": {
+        "tsc": "rimraf dist && tsc",
+        "start": "npm run tsc && node ./dist/src/index.js",
+        "test": "mocha -r ts-node/register ./test/*.test.ts --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ShareenAli/soen6461.git"
+    },
+    "author": "ShareenAli",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "inversify": "^5.0.1",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^0.19.5",
+        "moment": "^2.24.0",
+        "morgan": "^1.9.1",
+        "most": "^1.7.3",
+        "mysql": "^2.17.1",
+        "reflect-metadata": "^0.1.13",
+        "rimraf": "^3.0.0",
+        "typescript": "^3.6.4"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^3.0.0",
+        "@types/body-parser": "^1.17.1",
+        "@types/chai": "^4.2.5",
+        "@types/cors": "^2.8.6",
+        "@types/express": "^4.17.1",
+        "@types/jsonwebtoken": "^8.3.5",
+        "@types/knex": "^0.16.1",
+        "@types/mocha": "^5.2.7",
+        "@types/moment": "^2.13.0",
+        "@types/morgan": "^1.7.37",
+        "@types/mysql": "^2.15.7",
+        "@types/tape": "^4.2.33",
+        "chai": "^4.2.0",
+        "mocha": "^6.2.2",
+        "tap-spec": "^5.0.0",
+        "tape": "^4.11.0",
+        "ts-node": "^8.3.0"
+    }
+}
