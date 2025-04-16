@@ -93,7 +93,7 @@ npm start
 #### Credentials
 - Clerk <br/>
 To log in to the clerk account, please use the following account credentials:  <br/>
-```Username: djmunish``` <br />
+```Username: mdnikith``` <br />
 ```Password: password```
 
 - Admin <br/>
