@@ -33,29 +33,7 @@ Your software system will consist of the following artifacts that must be develo
 mysql -u root -p
 
 ##### Create database
-CREATE DATABASE vehicle_rental;
-USE vehicle_rental;
-
-##### Create vehicles table
-CREATE TABLE vehicles (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    type ENUM('sedan', 'SUV', 'truck'),
-    make VARCHAR(50),
-    model VARCHAR(50),
-    year INT,
-    color VARCHAR(30),
-    license_plate VARCHAR(7) UNIQUE
-);
-
-##### Create clients table
-CREATE TABLE clients (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    driver_license VARCHAR(15) UNIQUE,
-    license_expiry DATE,
-    phone_number VARCHAR(15)
-);
+Please refer this for setup: https://github.com/nikithmd/vehiclereservation/blob/main/soen6461-master/carrentalsystem.sql
 
 ## 2. Backend Setup
 
